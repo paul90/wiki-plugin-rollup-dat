@@ -83,7 +83,7 @@ window.plugins.rollup =
     recalculate = (delay, state, done) ->
       timeout delay, ->
         wiki.getPlugin 'method', (plugin) ->
-          $.getJSON "/#{state.slug}.json", (data) ->
+          wiki.site().get state.slug, (data) ->
             state.methods = _.filter data.story, (item) -> item.type == 'method'
             perform state, plugin, done
 
