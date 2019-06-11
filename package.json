@@ -1,6 +1,6 @@
 {
-  "name": "@paul90/wiki-plugin-rollup",
-  "version": "0.2.2",
+  "name": "wiki-plugin-rollup",
+  "version": "0.2.3",
   "description": "Federated Wiki - Rollup Plug-in",
   "keywords": [
     "wiki",
@@ -28,20 +28,22 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-contrib-coffee": "^2.0.0",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "grunt": "^1.0.4",
+    "grunt-contrib-coffee": "^2.1.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-git-authors": "~3"
+    "grunt-git-authors": "^3.2.0"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paul90/wiki-plugin-rollup-dat.git"
+    "url": "https://github.com/fedwiki/wiki-plugin-rollup.git"
   },
   "bugs": {
-    "url": "https://github.com/paul90/wiki-plugin-rollup-dat/issues"
+    "url": "https://github.com/fedwiki/wiki-plugin-rollup/issues"
   },
   "engines": {
-    "node": ">=8.11"
+    "node": ">=0.10"
   }
 }
